@@ -7,19 +7,19 @@ armor: 3
 flying: false
 hovering: false
 isEnemy: false
-legCount = 4
-            legMoveSpace = 1
-            legPairOffset = 6
-            legLength = 30
-            legExtension = -15
-            legBaseOffset = 10
-            stepShake = 1
-            legLengthScl = 0.96
-            rippleScale = 2
-            legSpeed = 0.2
-            legSplashDamage = 32
-            legSplashRange = 30
-outlineColor: 44413c
+legCount =4
+legMoveSpace = 1
+legPairOffset = 6
+legLength = 30
+legExtension = -15
+legBaseOffset = 10
+stepShake = 1
+legLengthScl = 0.96
+rippleScale = 2
+legSpeed = 0.2
+legSplashDamage = 32
+legSplashRange = 30
+outlineColor: 160602
 hitSize: 25
 researchCostMultiplier: 1.5
 weapons: [
