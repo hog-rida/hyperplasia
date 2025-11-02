@@ -10,15 +10,16 @@ legMoveSpace: 1
 hovering: false
 isEnemy: false
 legCount: 4
-legLength: 10
+legPairSpace: 15
+legLength: 45
 legSpeed: 0.23
-legForwardScl: 5
+legForwardScl: 1
 outlineColor: 44413c
 hitSize: 9
 researchCostMultiplier: 1.5
 weapons: [
 {
-  x: 3
+  x: 5
     y: 2
 name: dih-pew
     reload: 20
@@ -34,8 +35,8 @@ name: dih-pew
     }
   }
 {
-  x: -4
-    y: -2
+  x: -6
+    y: -3
 name: dih-cannon
     reload: 60
     mirror: false
