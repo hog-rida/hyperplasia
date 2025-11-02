@@ -10,9 +10,9 @@ isEnemy: false
 legCount :4
 legMoveSpace : 1
 legPairOffset : 6
-legLength : 30
+legLength : 20
 legExtension: -15
-legBaseOffset :10
+legBaseOffset :1
 stepShake :1
 legLengthScl :0.96
 rippleScale :2
@@ -51,13 +51,13 @@ name: dih-cannon
     shootSound: artillery
     bullet: {
       type: ArtilleryBulletType
-      width: 9
-      length: 15
+      width: 15
+      length: 26
       damage: 500
       splashDamage: 300
-      splashRadius: 40
-      speed: 1
-      lifetime: 100
+      splashRadius: 70
+      speed: 1.5
+      lifetime: 200
     }
   }
 ]
