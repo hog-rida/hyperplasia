@@ -5,15 +5,15 @@ speed: 0.6
 health: 1700
 armor: 1
 flying: false
-legExtension: 7
+legExtension: 4
 legMoveSpace: 1
 hovering: false
 isEnemy: false
 legCount: 4
 legPairSpace: 15
-legLength: 45
+legLength: 25
 legSpeed: 0.23
-legForwardScl: 1
+legForwardScl: 2
 outlineColor: 44413c
 hitSize: 9
 researchCostMultiplier: 1.5
@@ -30,7 +30,9 @@ name: dih-pew
       type: BasicBulletType
       width: 4
       length: 5
-      damage: 18
+      damage: 30
+      speed: 2
+      lifetime: 100
 
     }
   }
@@ -46,9 +48,11 @@ name: dih-cannon
       type: ArtilleryBulletType
       width: 5
       length: 3
-      damage: 40
+      damage: 60
       splashDamage: 20
       splashRadius: 5
+      speed: 1
+      lifetime: 100
     }
   }
 ]
