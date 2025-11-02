@@ -2,35 +2,40 @@ type: legs
 name: Dih
 description: Capable of building and automatically repairing damaged structures. Equipped with a small healing beam.
 speed: 0.6
-health: 1700
-armor: 1
+health: 12500
+armor: 3
 flying: false
-legExtension: 4
-legMoveSpace: 1
 hovering: false
 isEnemy: false
-legCount: 4
-legPairSpace: 15
-legLength: 25
-legSpeed: 0.23
-legForwardScl: 2
+legCount = 4
+            legMoveSpace = 1
+            legPairOffset = 6
+            legLength = 30
+            legExtension = -15
+            legBaseOffset = 10
+            stepShake = 1
+            legLengthScl = 0.96
+            rippleScale = 2
+            legSpeed = 0.2
+            legSplashDamage = 32
+            legSplashRange = 30
 outlineColor: 44413c
-hitSize: 9
+hitSize: 25
 researchCostMultiplier: 1.5
 weapons: [
 {
   x: 5
     y: 2
 name: dih-pew
-    reload: 20
+    reload: 10
     mirror: false
     rotate: false
     shootSound: shootAlt
     bullet: {
       type: BasicBulletType
-      width: 4
-      length: 5
-      damage: 30
+      width: 9
+      length: 13
+      damage: 50
       speed: 2
       lifetime: 100
 
@@ -46,11 +51,11 @@ name: dih-cannon
     shootSound: artillery
     bullet: {
       type: ArtilleryBulletType
-      width: 5
-      length: 3
-      damage: 60
-      splashDamage: 20
-      splashRadius: 5
+      width: 9
+      length: 15
+      damage: 500
+      splashDamage: 300
+      splashRadius: 40
       speed: 1
       lifetime: 100
     }
