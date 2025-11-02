@@ -1,0 +1,36 @@
+type: legs
+name: Dih
+description: Capable of building and automatically repairing damaged structures. Equipped with a small healing beam.
+speed: 0.6
+health: 170
+armor: 1
+flying: false
+legExtension: -2.5
+legMoveSpace: 0.9
+hovering: false
+isEnemy: false
+legCount: 4
+legLength: 8
+legSpeed: 0.23
+legForwardScl: 0.56
+itemCapacity: 25
+outlineColor: 44413c
+hitSize: 6
+researchCostMultiplier: 1.5
+weapons: [
+{
+  x: 3
+    y: 2
+    reload: 94
+    mirror: false
+    rotate: false
+    shootSound: shootAlt
+    bullet: {
+      type: BasicBulletType
+      width: 4
+      length: 5
+      damage: 18
+
+    }
+  }
+]
