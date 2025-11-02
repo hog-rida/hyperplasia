@@ -8,7 +8,7 @@ flying: false
 hovering: true
 isEnemy: false
 legCount :4
-legMoveSpace : 8
+legMoveSpace : 3
 legPairOffset : 6
 legLength : 20
 legExtension: -15
@@ -20,7 +20,7 @@ legSpeed : 0.5
 legSplashDamage : 2
 legSplashRange : 30
 outlineColor: 160602
-hitSize: 25
+hitSize: 12
 researchCostMultiplier: 1.5
 weapons: [
 {
@@ -32,22 +32,22 @@ name: dih-pew
     rotate: true
     shootSound: artillery
     bullet: {
-      type: ArtilleryBulletType
+      type: BasicBulletType
       width: 9
       length: 13
       damage: 50
       speed: 2
       lifetime: 80
-      fragLifeMin: 0.1
-      fragLifeMax: 0.3
+      fragLifeMin: 0.05
+      fragLifeMax: 0.2
       fragVelocityMin: 5
       fragVelocityMax: 9
-      fragBullets: 2
+      fragBullets: 8
       fragBullet: {
         type: BasicBulletType
         damage: 15
-        width: 5
-        length: 20
+        width: 3
+        length: 10
         pierce: false
         pierceBuilding: false
       }
