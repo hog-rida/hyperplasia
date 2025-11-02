@@ -8,7 +8,7 @@ flying: false
 hovering: true
 isEnemy: false
 legCount :4
-legMoveSpace : 1
+legMoveSpace : 8
 legPairOffset : 6
 legLength : 20
 legExtension: -15
