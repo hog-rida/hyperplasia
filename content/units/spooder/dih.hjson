@@ -21,6 +21,7 @@ weapons: [
 {
   x: 3
     y: 2
+name: dih-pew
     reload: 94
     mirror: false
     rotate: false
@@ -31,6 +32,23 @@ weapons: [
       length: 5
       damage: 18
 
+    }
+  }
+{
+  x: -4
+    y: -2
+name: dih-cannon
+    reload: 150
+    mirror: false
+    rotate: false
+    shootSound: artillery
+    bullet: {
+      type: ArtilleryBulletType
+      width: 5
+      length: 3
+      damage: 40
+      splashDamage: 20
+      splashRadius: 5
     }
   }
 ]
