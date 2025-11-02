@@ -5,14 +5,14 @@ speed: 0.6
 health: 1700
 armor: 1
 flying: false
-legExtension: 3
-legMoveSpace: 5
+legExtension: 7
+legMoveSpace: 1
 hovering: false
 isEnemy: false
 legCount: 4
 legLength: 10
 legSpeed: 0.23
-legForwardScl: 1
+legForwardScl: 5
 outlineColor: 44413c
 hitSize: 9
 researchCostMultiplier: 1.5
@@ -21,7 +21,7 @@ weapons: [
   x: 3
     y: 2
 name: dih-pew
-    reload: 94
+    reload: 20
     mirror: false
     rotate: false
     shootSound: shootAlt
@@ -37,7 +37,7 @@ name: dih-pew
   x: -4
     y: -2
 name: dih-cannon
-    reload: 150
+    reload: 60
     mirror: false
     rotate: false
     shootSound: artillery
